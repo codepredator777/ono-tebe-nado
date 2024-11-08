@@ -353,6 +353,7 @@ main {
     display: flex;
     flex-direction: row;
     gap: 48px;
+
 }
 
 .footer_social_list-item {
