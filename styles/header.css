@@ -1,7 +1,5 @@
 header {
     height: 293px;
-    margin-left: 24px;
-    margin-right: 24px;
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
     grid-template-rows: 1fr 105px 1fr;
@@ -10,6 +8,11 @@ header {
     "header_menu header_logo_image header_company-info"
     ". . ."
     ;
+    background-color: white;
+}
+
+main {
+    background-color: white;
 }
 
 .header_menu {
@@ -274,25 +277,85 @@ header {
     background-image: url("../images/card-lot-03.jpg");
 }
 
-
-
-
-
-
-
-
-
-
 .about {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 693px;
+    grid-template-rows: 1fr;
     width: 1052px;
-    height: 697px;
+    height: 595px;
 
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.class_container {
+.about_logo_image_container {
+    background-color: black;
+    background-image: url("../images/logo-white.svg");
+    background-size: 148px 114px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+
+    margin-top: 35px;
+    margin-left: 47px;
+    margin-right: 72px;
+}
+
+.about_text_container {
+    margin-top: 133px;
+}
+
+.about_title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.divider {
+    height: 100px;
+}
+.about_description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.about_description_divider {
+    padding-top: 24px;
+}
+
+.footer {
     display: flex;
-    width: 871px;
-    height: 1052px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    height: 366px;
+    padding-top: 181px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+}
+
+.footer_menu .header_menu_list {
+    flex-direction: column;
+}
+
+.header_menu_item:not(.footer_menu) {
+    list-style: none;
+    text-underline-offset: 25%;
+}
+
+.footer_social_list {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.footer_social_list-item {
+    width: 48px;
+    height: 48px;
 }
