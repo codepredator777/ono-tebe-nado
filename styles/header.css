@@ -90,8 +90,7 @@ main {
     background-color: rgb(0 0 0 / 0.5);
 }
 
-
-.h1_cover_title{
+.h1_cover_title {
     width: 1000px;
     height: 355px;
     color: white;
@@ -106,9 +105,6 @@ main {
 }
 
 .add_letter_spacing5 {
-    letter-spacing: 35px;
-}
-.add_letter_spacing5 {
     letter-spacing: 5px;
 }
 .add_letter_spacing15 {
@@ -117,10 +113,6 @@ main {
 
 .remove_letter_spacing_from_end {
     letter-spacing: unset;
-}
-
-.left {
-
 }
 
 .middle {
@@ -154,7 +146,7 @@ main {
     margin-right: 79px;
 }
 
-.auction_slogan_item  {
+.auction_slogan_item {
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
     font-style: normal;
@@ -263,7 +255,7 @@ main {
     padding-left: 40px;
 }
 
-.background_for_lot1{
+.background_for_lot1 {
     background-size: cover;
     background-image: url("../images/card-lot-01.jpg");
 }
@@ -271,7 +263,7 @@ main {
     background-size: cover;
     background-image: url("../images/card-lot-02.jpg");
 }
-.background_for_lot3{
+.background_for_lot3 {
     background-size: cover;
     background-image: url("../images/card-lot-03.jpg");
 }
