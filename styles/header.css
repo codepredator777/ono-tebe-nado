@@ -103,8 +103,6 @@ main {
     font-family: 'Raleway', sans-serif;
     font-size: 100px;
     display: inline-block;
-    text-align: left;
-
     margin-top: 150px;
     margin-left: 30px;
 }
@@ -112,10 +110,15 @@ main {
 .main_word {
     display: block;
 }
-
-.left_word { text-align: left; }
-.center_word { text-align: center; }
-.right_word { text-align: right; }
+.left_word {
+    text-align: left;
+}
+.center_word {
+    text-align: center;
+}
+.right_word {
+    text-align: right;
+}
 
 .add_letter_spacing_thirty {
     letter-spacing: 30px;
@@ -124,7 +127,7 @@ main {
     letter-spacing: 60px;
 }
 
-.remove_letter_spacing_from_end {
+.remove_letter_spacing_from_end  {
     letter-spacing: unset;
 }
 
