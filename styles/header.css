@@ -96,7 +96,7 @@ main {
 }
 
 .h1_cover_title {
-    width: 1000px;
+    width: 1050px;
     height: 355px;
     color: white;
     text-transform: uppercase;
@@ -116,16 +116,20 @@ main {
 }
 
 .center_word {
-    padding-left: 140px;
+    padding-left: 145px;
+    padding-top: 10px;
 }
 
 .right_word {
-    text-align: right;
-    padding-left: 460px;
+    white-space: nowrap;
+    padding-left: 590px;
 }
 
 .add_letter_spacing_thirty {
     letter-spacing: 30px;
+}
+.add_letter_spacing_sixty {
+    letter-spacing: 13px;
 }
 
 .remove_letter_spacing_from_end {
@@ -152,8 +156,8 @@ main {
     flex-direction: row;
     justify-content: space-between;
     width: 637px;
-    margin-right: 50px;
-    margin-bottom: 20px;
+    margin-right: 70px;
+
 }
 
 .auction_slogan_item {
@@ -173,7 +177,7 @@ main {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    margin-bottom: 20px;
+
 }
 
 .make_bet_button_label {
