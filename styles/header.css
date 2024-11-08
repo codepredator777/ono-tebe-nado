@@ -117,11 +117,12 @@ main {
 
 .center_word {
     text-align: center;
-    padding: 10px 15px 15px 20px;
+    padding: 10px 15px 15px 40px;
 }
 
 .right_word {
-    padding: 10px 20px 15px 20px;
+    margin-top: 20px;
+    margin-right: 5px;
     text-align: right;
 }
 
@@ -145,6 +146,7 @@ main {
     justify-content: center;
     align-items: center;
     color: white;
+
 }
 
 .auction_slogan {
@@ -153,6 +155,7 @@ main {
     justify-content: space-between;
     width: 637px;
     margin-right: 50px;
+    margin-bottom: 20px;
 }
 
 .auction_slogan_item {
@@ -169,24 +172,20 @@ main {
     width: 256px;
     height: 51px;
     border: 1px solid white;
-
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
 .make_bet_button_label {
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
     font-weight: 500;
-    font-style: normal;
     text-align: center;
     text-transform: uppercase;
-    line-height: normal;
-
-    padding: 12px 32px 11px 31px;
-    white-space: nowrap;
 }
+
 
 .lots {
     display: flex;
