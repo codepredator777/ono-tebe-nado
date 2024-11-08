@@ -49,19 +49,21 @@ main {
     height: 105px;
 }
 
-.header_company-info {
+.company-info {
     grid-area: header_company-info;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     align-self: center;
-
-    padding-top: 5px;
     padding-bottom: 2px;
     height: 100%;
 }
 
-.header_company-info-item {
+.company-info-header {
+    margin-right: 20px;
+}
+
+.company-info-item {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 400;
