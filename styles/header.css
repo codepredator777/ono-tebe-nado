@@ -116,14 +116,12 @@ main {
 }
 
 .center_word {
-    text-align: center;
-    padding: 10px 15px 15px 40px;
+    padding-left: 140px;
 }
 
 .right_word {
-    margin-top: 20px;
-    margin-right: 5px;
     text-align: right;
+    padding-left: 460px;
 }
 
 .add_letter_spacing_thirty {
@@ -345,6 +343,10 @@ main {
 
 .footer_menu .menu_list {
     flex-direction: column;
+}
+
+.footer_menu .menu_list_footer {
+    text-align: center;
 }
 
 .footer_social_list {
