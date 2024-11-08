@@ -6,8 +6,7 @@ header {
     grid-template-areas:
     ". . ."
     "header_menu header_logo_image header_company-info"
-    ". . ."
-    ;
+    ". . .";
     background-color: white;
 }
 
@@ -104,24 +103,32 @@ main {
     margin-left: 50px;
 }
 
+.main_word {
+    display: block;
+}
+
+.left_word {
+    text-align: left;
+}
+
+.center_word {
+    text-align: center;
+}
+
+.right_word {
+    text-align: right;
+}
+
 .add_letter_spacing5 {
     letter-spacing: 5px;
 }
+
 .add_letter_spacing15 {
     letter-spacing: 15px;
 }
 
 .remove_letter_spacing_from_end {
     letter-spacing: unset;
-}
-
-.middle {
-    text-align: center;
-    white-space: nowrap;
-}
-
-.right {
-    text-align: right;
 }
 
 .auction_action_container {
@@ -132,7 +139,6 @@ main {
     align-items: flex-end;
     flex-direction: row;
     color: white;
-
     padding: 51px;
 }
 
@@ -188,6 +194,7 @@ main {
 
     margin: 179px 24px 146px 24px;
 }
+
 .lots_title {
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
@@ -196,6 +203,7 @@ main {
     padding-left: 40px;
     padding-bottom: 27px;
 }
+
 .watch_more_link {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -223,6 +231,7 @@ main {
     padding: 51px 40px 48px 40px;
     z-index: 0;
 }
+
 .auction_position_cards_item::after {
     z-index: -1;
     content: "";
@@ -259,10 +268,12 @@ main {
     background-size: cover;
     background-image: url("../images/card-lot-01.jpg");
 }
+
 .background_for_lot2 {
     background-size: cover;
     background-image: url("../images/card-lot-02.jpg");
 }
+
 .background_for_lot3 {
     background-size: cover;
     background-image: url("../images/card-lot-03.jpg");
@@ -304,9 +315,11 @@ main {
     font-weight: 700;
     text-transform: uppercase;
 }
+
 .divider {
     height: 100px;
 }
+
 .about_description {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
