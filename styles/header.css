@@ -110,12 +110,15 @@ main {
 .main_word {
     display: block;
 }
+
 .left_word {
     text-align: left;
 }
+
 .center_word {
     text-align: center;
 }
+
 .right_word {
     text-align: right;
 }
@@ -123,11 +126,8 @@ main {
 .add_letter_spacing_thirty {
     letter-spacing: 30px;
 }
-.add_letter_spacing_sixty {
-    letter-spacing: 60px;
-}
 
-.remove_letter_spacing_from_end  {
+.remove_letter_spacing_from_end {
     letter-spacing: unset;
 }
 
