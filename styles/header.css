@@ -129,7 +129,7 @@ main {
     letter-spacing: 30px;
 }
 .add_letter_spacing_sixty {
-    letter-spacing: 13px;
+    letter-spacing: 30px;
 }
 
 .remove_letter_spacing_from_end {
@@ -177,7 +177,7 @@ main {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-
+    margin-left: 5px;
 }
 
 .make_bet_button_label {
