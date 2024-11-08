@@ -124,13 +124,14 @@ main {
     white-space: nowrap;
     padding-left: 590px;
 }
+.right_word span:last-child {
+    margin-right: -15px;
+}
 
 .add_letter_spacing_thirty {
     letter-spacing: 30px;
 }
-.add_letter_spacing_sixty {
-    letter-spacing: 30px;
-}
+
 
 .remove_letter_spacing_from_end {
     letter-spacing: unset;
