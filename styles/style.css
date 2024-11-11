@@ -224,7 +224,6 @@
     background-size: cover;
     background-color: rgb(0 0 0 / 0.6);
 }
-
 .card_link {
     height: 100%;
     display: inline-block;
@@ -240,7 +239,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 51px 40px 48px 40px;
+    padding: 51px 30px 48px 40px;
+    overflow: hidden;
 }
 
 .card_title {
