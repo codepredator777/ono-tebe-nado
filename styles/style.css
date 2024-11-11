@@ -279,7 +279,7 @@
 
 .about {
     display: grid;
-    grid-template-columns: 1fr 693px;
+    grid-template-columns: 1fr 705px;
     grid-template-rows: auto auto ;
     max-width: 1052px;
     margin-left: 20px;
