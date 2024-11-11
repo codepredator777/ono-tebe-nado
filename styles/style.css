@@ -303,8 +303,8 @@
 }
 
 .about_text_container {
+    padding-top: 120px;
 
-    width: 100%;
     grid-column: 2;
 }
 
