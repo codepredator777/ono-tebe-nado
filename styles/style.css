@@ -212,6 +212,7 @@
     position: relative;
     min-height: 563px;
     max-width: 334px;
+    background-size: cover;
     background-position: center;
     z-index: 0;
 }
