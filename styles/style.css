@@ -208,13 +208,12 @@
 }
 
 .lots_card-list-item {
-    display: flex;
     position: relative;
     max-width: 334px;
     background-position: center;
-    min-height: 533px;
     padding: 51px 40px 48px 40px;
     z-index: 0;
+    height: 563px;
 }
 
 .card_link {
