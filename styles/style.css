@@ -127,11 +127,10 @@
 .auction_action_container {
     display: flex;
     flex-direction: row;
-    margin-top: 140px;
+    margin-top: 130px;
     padding-left: 78px;
     padding-right: 50px;
     width: 100%;
-    justify-content: center;
     align-items: center;
     color: white;
     white-space: nowrap;
