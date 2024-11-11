@@ -13,9 +13,9 @@
 .header_menu {
     grid-area: header_menu;
     align-self: center;
-    margin-left: 20px;
+    margin-left: 25px;
     margin-right: 36px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 
 .menu_list {
@@ -32,7 +32,7 @@
 }
 
 .menu_item {
-    text-underline-offset: 25%;
+    text-underline-offset: 24%;
 }
 
 .menu_item-active {
