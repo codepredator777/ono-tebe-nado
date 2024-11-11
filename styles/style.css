@@ -25,7 +25,7 @@
     letter-spacing: 0.01em;
     display: flex;
     justify-content: space-around;
-    gap: 15px;
+    gap: 25px;
     padding-left: 26px;
 }
 
@@ -58,7 +58,6 @@
 }
 
 .company-info-item {
-
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
