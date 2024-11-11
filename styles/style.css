@@ -282,7 +282,7 @@
     grid-template-columns: 1fr 705px;
     grid-template-rows: auto auto ;
     max-width: 1052px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 5px;
     gap: 20px;
 }
