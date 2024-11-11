@@ -13,7 +13,7 @@
 .header_menu {
     grid-area: header_menu;
     align-self: center;
-    margin-left: 25px;
+    margin-left: 27px;
     margin-right: 36px;
     padding-bottom: 2px;
 }
@@ -50,6 +50,7 @@
 }
 
 .company-info {
+    padding-top: 5px;
     grid-area: header_company-info;
     display: flex;
     flex-direction: column;
