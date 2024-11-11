@@ -209,12 +209,21 @@
 }
 
 .lots_card-list-item {
-    width: 334px;
+    display: flex;
+    position: relative;
+    max-width: 334px;
     background-position: center;
     min-height: 563px;
-    position: relative;
     padding: 51px 40px 48px 40px;
     z-index: 0;
+}
+
+.card_link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
 }
 
 .card {
@@ -263,16 +272,26 @@
 .about {
     display: grid;
     grid-template-columns: 1fr 693px;
-    grid-template-rows: 1fr;
-    width: 1052px;
+    grid-template-rows: auto auto ;
+    max-width: 1052px;
     margin-left: 20px;
     margin-right: 20px;
+    gap: 20px;
+}
+
+.about_title {
+    grid-column: 1 / -1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .about_logo_image_container {
+    grid-column: 1;
+    background-size: 148px 114px;
     background-color: black;
     background-image: url("../images/logo-white.svg");
-    background-size: 148px 114px;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -284,17 +303,13 @@
 }
 
 .about_text_container {
-    margin-top: 130px;
-}
 
-.about_title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
+    width: 100%;
+    grid-column: 2;
 }
 
 .about_description {
+    grid-area: description;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     line-height: 24px;
@@ -317,7 +332,6 @@
     justify-content: space-between;
     align-items: flex-start;
     position: relative;
-    height: 366px;
     padding-top: 180px;
     padding-left: 50px;
     padding-right: 50px;
@@ -325,7 +339,7 @@
 }
 
 .footer .company-info {
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .footer_menu .menu_list {
