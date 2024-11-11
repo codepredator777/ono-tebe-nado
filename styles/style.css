@@ -339,8 +339,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    min-height: 366px;
-    padding-top: 130px;
+    height: 366px;
+    padding-top: 160px;
     padding-left: 50px;
     padding-right: 50px;
     background-color: white;
@@ -353,6 +353,7 @@
 .footer_menu .menu_list {
     flex-direction: column;
     gap: 5px;
+    padding-right: 15px;
 }
 
 .footer_menu .menu_list_footer {
