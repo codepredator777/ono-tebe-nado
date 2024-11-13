@@ -7,8 +7,9 @@
     "header_menu header_logo_image header_company-info"
     ". . .";
     background-color: white;
+    align-items: center;
     padding-top: 92px;
-    padding-bottom: 76px;
+    padding-bottom: 96px;
 }
 
 .header_menu {
