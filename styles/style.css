@@ -1,13 +1,16 @@
 .header-menu-area {
-    min-height: 293px;
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
-    grid-template-rows: 1fr 105px 1fr;
+    grid-template-rows: 1fr auto 1fr;
     grid-template-areas:
     ". . ."
     "header_menu header_logo_image header_company-info"
     ". . .";
     background-color: white;
+    align-items: center;
+    gap: 10px;
+    padding-top: 92px;
+    padding-bottom: 95px;
 }
 
 .header_menu {
@@ -67,7 +70,7 @@
     line-height: 24px;
 }
 
-.header_company-info-item-selected {
+.company-info-item-selected {
     text-decoration: underline;
     text-underline-offset: 25%;
 }
@@ -247,7 +250,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 51px 35px 48px 40px;
-    overflow: hidden;
+
 }
 
 .card_title {
