@@ -350,12 +350,13 @@
 
 .footer .company-info {
     margin-left: 0;
+    padding-top: 0;
 }
 
 .footer_menu .menu_list {
     flex-direction: column;
     gap: 0;
-    padding-top: 5px;
+
     padding-right: 18px;
 }
 
@@ -364,7 +365,6 @@
 }
 
 .footer_social_list {
-    padding-top: 5px;
     display: flex;
     flex-direction: row;
     gap: 48px;
