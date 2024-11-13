@@ -7,10 +7,8 @@
     "header_menu header_logo_image header_company-info"
     ". . .";
     background-color: white;
-    align-items: center;
-    gap: 10px;
     padding-top: 92px;
-    padding-bottom: 75px;
+    padding-bottom: 77px;
 }
 
 .header_menu {
