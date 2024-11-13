@@ -335,10 +335,7 @@
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 20px;
-    padding-top: 145px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 89px;
+    padding: 145px 50px 89px 50px;
     background-color: white;
 }
 
